@@ -1,0 +1,285 @@
+@charset "UTF-8";
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* fin reset Meyer */
+/* root */
+/* google font */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* style pr le header */
+.clear {
+  clear: both;
+}
+
+.header {
+  display: flex;
+  background-color: #6868f5;
+}
+.header img {
+  margin: 15px 100px 30px 50px;
+}
+.header h1 {
+  text-align: center;
+  margin: auto 10px;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 1px #ece5fa;
+  font-family: "Oswald", sans-serif;
+}
+.header a {
+  margin: 20px 15px;
+  font-size: 2rem;
+  transition: 1s;
+}
+.header a:hover {
+  color: blanchedalmond;
+}
+
+nav .menu .active {
+  background-color: #fc6da9;
+  color: #fdff8e;
+}
+nav .menu {
+  text-align: center;
+  padding: 20px;
+  height: 80px;
+  background-color: #aa9bfa;
+  border-bottom: 7px solid #f7dfdf;
+}
+nav .menu a {
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid ivory;
+  border-radius: 10px 0px;
+  transition: 1s;
+  font-size: 1.3rem;
+  font-family: "Playfair Display", serif;
+  text-decoration: none;
+  color: #000;
+  background-color: #5454fc;
+  /* fin header */
+}
+nav .menu a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* début main */
+main {
+  width: 80%;
+  margin: auto;
+}
+
+aside {
+  /* fin main */
+}
+aside .aside {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 20px;
+  margin: 10px 0;
+  background-color: #aa9bfa;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+aside .aside h2 {
+  margin: 30px;
+  font-size: 2rem;
+  font-family: "Playfair Display", serif;
+}
+aside .niveau {
+  float: left;
+  width: 80%;
+  padding: 20px;
+  /* font-size: 1.5rem; */
+}
+aside .niveau h2,
+aside .niveau h3,
+aside .niveau h4 {
+  margin: 10px;
+  font-family: "Playfair Display", serif;
+}
+aside .niveau p {
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+/* style pr le footer */
+footer {
+  background-color: #413a3a;
+  width: 100%;
+  height: 45vh;
+  /* fin footer */
+}
+footer .services {
+  display: flex;
+}
+footer .services h3 {
+  text-align: center;
+  margin: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.8rem;
+  font-family: "Playfair Display", serif;
+}
+footer .services p {
+  font-size: 1.2rem;
+  color: ivory;
+  margin: 15px;
+  letter-spacing: 2px;
+  line-height: 1;
+}
+footer .contact p {
+  color: #000;
+  text-align: center;
+  margin: 30px;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+/*# sourceMappingURL=style.css.map */
